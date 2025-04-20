@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Congrats</title>
+</head>
+<body>
+
+    <p>Hey {{.Name}},</p><br>
+    <p>Congrats on being selected in <strong>{{.ProjectName}}</strong>! {{.TemplateText}}</p>
+
+    <p>Join the WhatsApp group via this link: <a href="{{.WhatsappLink}}">{{.WhatsappLink}}</a></p>
+
+    <p>---</p>
+    <p>Warm Regards,
+       {{range .Mentors}}<br>
+       {{.}}
+       {{end}}</p>
+
+    <p>---</p>
+    <p>Regards,<br>
+       {{.ClubName}} | <a href="{{.ClubSite}}">{{.ClubSite}}</a><br>
+       Join our Discord: <a href="{{.ClubDiscord}}">{{.ClubDiscord}}</a><br><br>
+       Email: <a href="mailto:{{.ClubEmail}}">{{.ClubEmail}}</a><br>
+       Instagram: <a href="{{.ClubInstagram}}">{{.ClubInstagram}}</a><br><br>
+
+       Coordinators:<br>
+       {{range .Coordinators}}
+       {{.Name}}: <a href="mailto:{{.Email}}">{{.Email}}</a><br>
+       {{end}}
+    </p>
+</body>
+</html>

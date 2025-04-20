@@ -1,0 +1,34 @@
+MAIL:
+  HOST: "smtp.cc.iitk.ac.in"
+  PORT: "25"
+  USER: "snt@iitk.ac.in" #Club iitk email
+  PASS: "" #Club iitk email password
+
+# Sample Details
+CLUB:
+  NAME: "Electronics club"
+  SITE: "https://linktr.ee/eclubiitk"
+  DISCORD: "https://discord.gg/sgRE5Ce8"
+  INSTAGRAM: "https://www.instagram.com/electronicsclub.iitk/"
+  EMAIL: "eclub_snt@iitk.ac.in"
+  Cordinator1: "Ashish Upadhyay"
+  CordinatorEmail1: "ashishu23@iitk.ac.in"
+  Cordinator2: "Kshitij Bhardwaj"
+  CordinatorEmail2: "kshitijb23@iitk.ac.in"
+  Cordinator3: "Mrigeesh Ashwin"
+  CordinatorEmail3: "mrigeeshak23@iitk.ac.in"
+  Cordinator4: "Rachit Agarwal"
+  CordinatorEmail4: "rachitag23@iitk.ac.in"
+  #If less than 4 coordinators, remove the extra lines
+  TemplateText: "After powering through the recruitment test, you've shown us the spark we’re looking for. Get ready to dive into an exciting summer filled with innovation, experimentation, and hands-on fun. Welcome aboard — let’s build something amazing together!"
+
+PROJECT:
+  NAME: "Project Name"
+  WhatsappLink: "https://chat.whatsapp.com/YourLink"
+  MENTORS:
+    - "Mentor 1"
+    - "Mentor 2"
+    - "Mentor 3"  
+#Can extend for example - "Mentor 4"
+
+
