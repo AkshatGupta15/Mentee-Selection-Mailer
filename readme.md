@@ -1,5 +1,21 @@
+```
+ __  __               _                          __  __         _  _             
+|  \/  |  ___  _ __  | |_   ___   ___           |  \/  |  __ _ (_)| |  ___  _ __ 
+| |\/| | / _ \| '_ \ | __| / _ \ / _ \  _____   | |\/| | / _` || || | / _ \| '__|
+| |  | ||  __/| | | || |_ |  __/|  __/ |_____|  | |  | || (_| || || ||  __/| |   
+|_|  |_| \___||_| |_| \__| \___| \___|          |_|  |_| \__,_||_||_| \___||_|   
+                                                                                 
+
+                         
+```
+
+
 # Mentee Selection Mailer
 A Go tool to automate sending personalized HTML and plaintext emails to your mentees. Just update the config and CSV, and you're good to go.
+
+
+Used by `Brain & Cognitive Science Club` and 
+`Electronics Club` at IIT Kanpur to onboard their summer mentees.
 
 ---
 
@@ -33,7 +49,7 @@ Once the `config.yml` and `sample.csv` files are updated, you are ready to send 
 In your terminal, run the following command:
 
 ```bash
-go run main.go
+go run .
 ```
 
 **Note**: It is advisable to first send test emails to yourself to ensure everything works as expected.
